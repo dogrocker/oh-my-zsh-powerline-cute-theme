@@ -2,7 +2,7 @@
 
 A oh-my-zsh shell theme based on the Powerline Vim plugin
 
-This theme is base on [Bullet Train for oh-my-zsh](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme). I modified the and some of script.
+This theme is base on [Bullet Train for oh-my-zsh](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme). I modified some of the script.
 
 ## Preview
 
@@ -10,7 +10,7 @@ This theme is base on [Bullet Train for oh-my-zsh](https://github.com/caiogondim
 
 ## Color schemes
 
-* I use [Monokai Soda](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Monokai%20Soda.itermcolors) and I change some color.
+* I use [Monokai Soda](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Monokai%20Soda.itermcolors) and I was changed some color you can do that to **iTerm 2 > Preferences > Profiles > Color**.
 * You can download and modified your own schemes at [https://github.com/mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes).
 
 ## Requirements
@@ -26,12 +26,7 @@ In order to use the theme, you will first need:
 
 1. Download the theme [here](http://raw.github.com/dogrocker/oh-my-zsh-powerline-cute-theme/master/cute-theme.zsh-theme)
 2. Put the file **cute-theme.zsh-theme** in **~/.oh-my-zsh/themes/**
-3. Configure the theme in your **~/.zshrc** file:
-
-```bash
-ZSH_THEME="cute-theme"
-```
-
+3. Configure the theme in your **~/.zshrc** file:`ZSH_THEME="cute-theme"`
 4. Install Monokai Soda to **iTerm 2**
 5. **Setting iTerm 2** picture below.
 
@@ -47,8 +42,8 @@ ZSH_THEME="cute-theme"
 
 ## Wanna change your own emoji?
 
-* Choose you 💖 emoji [here](http://apps.timwhitlock.info/emoji/tables/unicode)
-* Edit your **.zshrc** just copy and paste you love emoji like this 
+1. Choose you 💖 emoji [here](http://apps.timwhitlock.info/emoji/tables/unicode)
+2. Edit your **.zshrc** just copy and paste you love emoji like this 
 
 ```bash
 BULLETTRAIN_PROMPT_CHAR="🐹 "
